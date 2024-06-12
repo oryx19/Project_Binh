@@ -264,7 +264,7 @@ def main():
 
         #Thoat
         elif dlvao == "Thoat":
-            print("Ban muon thoat chuong trinh (Y/N) ?")
+            print("*BAN MUON THOAT CHUONG TRINH? (Y/N)")
             thoat = input()
             if thoat == "Y":
                 break
