@@ -159,6 +159,7 @@ class menu:
             print(cur_node.mahv, cur_node.hoten, cur_node.namsinh, cur_node.sex, cur_node.bomon,"So thang no: ", cur_node.so_thang_no, "Nam tham gia:", cur_node.namthamgia)
     
 def main():
+    ds = menu()
     while True:
         ds = menu()
         dlvao = ds.hienmenu()
